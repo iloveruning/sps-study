@@ -1,0 +1,135 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.cll</groupId>
+  <artifactId>jmetal</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>jmetal</name>
+  <url>http://maven.apache.org</url>
+
+    <repositories>
+        <repository>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <java.version>1.8</java.version>
+    <jmetal.version>5.5</jmetal.version>
+  </properties>
+
+  <dependencies>
+    <!--<dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>-->
+
+    <!-- jmetal-core -->
+    <dependency>
+      <groupId>org.uma.jmetal</groupId>
+      <artifactId>jmetal-core</artifactId>
+      <version>${jmetal.version}</version>
+    </dependency>
+
+    <!-- jmetal-problem -->
+    <dependency>
+      <groupId>org.uma.jmetal</groupId>
+      <artifactId>jmetal-problem</artifactId>
+      <version>${jmetal.version}</version>
+    </dependency>
+
+    <!-- jmetal-algorithm -->
+    <dependency>
+      <groupId>org.uma.jmetal</groupId>
+      <artifactId>jmetal-algorithm</artifactId>
+      <version>${jmetal.version}</version>
+    </dependency>
+
+    <!-- jmetal-exec -->
+    <dependency>
+      <groupId>org.uma.jmetal</groupId>
+      <artifactId>jmetal-exec</artifactId>
+      <version>${jmetal.version}</version>
+    </dependency>
+
+    <!-- jmetal -->
+    <dependency>
+      <groupId>org.uma.jmetal</groupId>
+      <artifactId>jmetal</artifactId>
+      <version>${jmetal.version}</version>
+      <type>pom</type>
+    </dependency>
+
+
+    <!-- moeaframework -->
+    <dependency>
+      <groupId>org.moeaframework</groupId>
+      <artifactId>moeaframework</artifactId>
+      <version>2.12</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.7</version>
+    </dependency>
+
+      <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-rng-core -->
+      <dependency>
+          <groupId>org.apache.commons</groupId>
+          <artifactId>commons-rng-core</artifactId>
+          <version>1.0</version>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-rng-simple -->
+      <dependency>
+          <groupId>org.apache.commons</groupId>
+          <artifactId>commons-rng-simple</artifactId>
+          <version>1.0</version>
+      </dependency>
+
+    <!-- 集合操作 -->
+    <dependency>
+      <groupId>commons-collections</groupId>
+      <artifactId>commons-collections</artifactId>
+      <version>3.2.2</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.14.2</version>
+      <scope>test</scope>
+    </dependency>
+
+
+
+
+  </dependencies>
+
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+
+        <configuration>
+          <!--JDK版本-->
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

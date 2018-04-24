@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-04-10T13:23:50</date>
+  <millis>1523337830575</millis>
+  <sequence>0</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.JMetalLogger</class>
+  <method>configureLoggers</method>
+  <thread>1</thread>
+  <message>Loggers configured with null</message>
+</record>
+<record>
+  <date>2018-04-10T13:23:50</date>
+  <millis>1523337830637</millis>
+  <sequence>1</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ExecuteAlgorithms</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ExecuteAlgorithms: Preparing output directory</message>
+</record>
+<record>
+  <date>2018-04-10T13:23:50</date>
+  <millis>1523337830658</millis>
+  <sequence>2</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>12</thread>
+  <message>Creating F:/experimentResult/SPSStudy/data/NSGAII/SPS Problem</message>
+</record>
+<record>
+  <date>2018-04-10T13:23:50</date>
+  <millis>1523337830658</millis>
+  <sequence>3</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>1</thread>
+  <message>Creating F:/experimentResult/SPSStudy/data/INSGA-II/SPS Problem</message>
+</record>
+<record>
+  <date>2018-04-10T13:23:50</date>
+  <millis>1523337830659</millis>
+  <sequence>4</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>12</thread>
+  <message> Running algorithm: NSGAII, problem: SPS Problem, run: 0, funFile: F:/experimentResult/SPSStudy/data/NSGAII/SPS Problem/FUN0.tsv</message>
+</record>
+<record>
+  <date>2018-04-10T13:23:50</date>
+  <millis>1523337830659</millis>
+  <sequence>5</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>1</thread>
+  <message> Running algorithm: INSGA-II, problem: SPS Problem, run: 0, funFile: F:/experimentResult/SPSStudy/data/INSGA-II/SPS Problem/FUN0.tsv</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851583</millis>
+  <sequence>6</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Computing indicator: EP</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851585</millis>
+  <sequence>7</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: pareto_fronts/sps.pf</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851607</millis>
+  <sequence>8</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File F:/experimentResult/SPSStudy/data/NSGAII/SPS Problem/EP does NOT exist.</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851612</millis>
+  <sequence>9</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: -0.8383658969804632</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851615</millis>
+  <sequence>10</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: pareto_fronts/sps.pf</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851620</millis>
+  <sequence>11</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File F:/experimentResult/SPSStudy/data/INSGA-II/SPS Problem/EP does NOT exist.</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851627</millis>
+  <sequence>12</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>EP: -0.8383658969804632</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851629</millis>
+  <sequence>13</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Computing indicator: SPREAD</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851629</millis>
+  <sequence>14</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: pareto_fronts/sps.pf</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851632</millis>
+  <sequence>15</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File F:/experimentResult/SPSStudy/data/NSGAII/SPS Problem/SPREAD does NOT exist.</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851636</millis>
+  <sequence>16</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.0</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851638</millis>
+  <sequence>17</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: pareto_fronts/sps.pf</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851642</millis>
+  <sequence>18</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File F:/experimentResult/SPSStudy/data/INSGA-II/SPS Problem/SPREAD does NOT exist.</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851644</millis>
+  <sequence>19</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>SPREAD: 1.0</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851646</millis>
+  <sequence>20</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Computing indicator: GD</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851646</millis>
+  <sequence>21</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: pareto_fronts/sps.pf</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851649</millis>
+  <sequence>22</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File F:/experimentResult/SPSStudy/data/NSGAII/SPS Problem/GD does NOT exist.</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851676</millis>
+  <sequence>23</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 1.1184266569889936</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851679</millis>
+  <sequence>24</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: pareto_fronts/sps.pf</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851684</millis>
+  <sequence>25</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File F:/experimentResult/SPSStudy/data/INSGA-II/SPS Problem/GD does NOT exist.</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851693</millis>
+  <sequence>26</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>GD: 0.8403219097774481</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851694</millis>
+  <sequence>27</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Computing indicator: HV</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851695</millis>
+  <sequence>28</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: pareto_fronts/sps.pf</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851697</millis>
+  <sequence>29</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File F:/experimentResult/SPSStudy/data/NSGAII/SPS Problem/HV does NOT exist.</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851699</millis>
+  <sequence>30</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 1.0</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851703</millis>
+  <sequence>31</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: pareto_fronts/sps.pf</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851705</millis>
+  <sequence>32</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File F:/experimentResult/SPSStudy/data/INSGA-II/SPS Problem/HV does NOT exist.</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851708</millis>
+  <sequence>33</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>HV: 1.0</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851710</millis>
+  <sequence>34</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Computing indicator: IGD</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851711</millis>
+  <sequence>35</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: pareto_fronts/sps.pf</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851716</millis>
+  <sequence>36</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File F:/experimentResult/SPSStudy/data/NSGAII/SPS Problem/IGD does NOT exist.</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851719</millis>
+  <sequence>37</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.4950694016593676</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851721</millis>
+  <sequence>38</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: pareto_fronts/sps.pf</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851724</millis>
+  <sequence>39</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File F:/experimentResult/SPSStudy/data/INSGA-II/SPS Problem/IGD does NOT exist.</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851726</millis>
+  <sequence>40</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD: 0.4950694016593676</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851728</millis>
+  <sequence>41</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Computing indicator: IGD+</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851728</millis>
+  <sequence>42</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: pareto_fronts/sps.pf</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851730</millis>
+  <sequence>43</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File F:/experimentResult/SPSStudy/data/NSGAII/SPS Problem/IGD+ does NOT exist.</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851736</millis>
+  <sequence>44</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 0.0</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851738</millis>
+  <sequence>45</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>RF: pareto_fronts/sps.pf</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851739</millis>
+  <sequence>46</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>resetFile</method>
+  <thread>1</thread>
+  <message>File F:/experimentResult/SPSStudy/data/INSGA-II/SPS Problem/IGD+ does NOT exist.</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851741</millis>
+  <sequence>47</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.ComputeQualityIndicators</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>IGD+: 0.0</message>
+</record>
+<record>
+  <date>2018-04-10T13:24:11</date>
+  <millis>1523337851968</millis>
+  <sequence>48</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.component.GenerateLatexTablesWithStatistics</class>
+  <method>generateLatexScript</method>
+  <thread>1</thread>
+  <message>Creating F:/experimentResult/SPSStudy/latex directory</message>
+</record>
+</log>
